@@ -1,0 +1,14 @@
+{
+  "name": "express-cluster-sample",
+  "version": "0.0.1",
+  "description": "Sample express application using cluster",
+  "author": "Kulikala",
+  "license": "MIT",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
