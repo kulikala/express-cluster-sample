@@ -2,13 +2,23 @@
   "name": "express-cluster-sample",
   "version": "0.0.1",
   "description": "Sample express application using cluster",
-  "author": "Kulikala",
+  "author": {
+    "name": "kulikala",
+    "url": "http://github.com/kulikala"
+  },
   "license": "MIT",
   "private": true,
   "main": "server.js",
+  "engines": {
+    "node": ">= 6"
+  },
   "scripts": {
+    "lint": "eslint {**/,}*.js"
   },
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }
