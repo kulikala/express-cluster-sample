@@ -1,13 +1,16 @@
-'use strict';
+'use strict'
 
-const cluster = require('cluster');
+const cluster = require('cluster')
+let instance
 
 if (cluster.isMaster) {
-  const Master = require('./lib/master');
+  const Master = require('./lib/master')
 
-  new Master();
+  instance = new Master()
 } else {
-  const Worker = require('./lib/worker');
+  const Worker = require('./lib/worker')
 
-  new Worker();
+  instance = new Worker()
 }
+
+instance.start()

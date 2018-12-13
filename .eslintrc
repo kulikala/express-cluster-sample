@@ -3,9 +3,5 @@
     "es6": true,
     "node": true,
   },
-  "rules": {
-    "no-use-before-define": "warn",
-    "quotes": ["error", "single"],
-    "strict": ["error", "global"],
-  }
+  "extends": "standard"
 }
