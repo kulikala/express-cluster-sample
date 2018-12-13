@@ -1,5 +1,10 @@
 # express-cluster-sample
 
+[![GitHub release](https://img.shields.io/github/release/kulikala/express-cluster-sample.svg?style=flat-square)](https://github.com/kulikala/express-cluster-sample/releases/latest)
+[![dependencies status](https://img.shields.io/david/kulikala/express-cluster-sample.svg?style=flat-square)](https://david-dm.org/kulikala/express-cluster-sample)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
+[![MIT License](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](LICENSE)
+
 Sample Express application using Cluster.
 
 This sample app uses [Express] to serve HTTP server,
