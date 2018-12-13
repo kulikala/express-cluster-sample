@@ -16,7 +16,7 @@
     "lint": "eslint --ext .js ."
   },
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "eslint": "^5.10.0",
